@@ -1,0 +1,79 @@
+{
+  "queue_dir": "queue",
+  "target_dir": "uploads",
+  "remote_name": "origin",
+  "branch": "main",
+  "git_user_name": "konark-17",
+  "git_user_email": "kona300107@gmail.com",
+  "commit_message_template": "Add {filename} - Daily commit [{date}]",
+  "auto_push": true,
+  "schedule_time": "10:00",
+  "order": "alphabetical",
+  "repos": {
+    "TEST": {
+      "remote_url": "https://github.com/konark-17/TEST.git",
+      "branch": "main",
+      "target_dir": "uploads/TEST",
+      "description": ""
+    },
+    "leetcode": {
+      "remote_url": "https://github.com/konark-17/TEST.git",
+      "target_dir": "uploads/leetcode",
+      "branch": "main"
+    },
+    "RoutePulse": {
+      "remote_url": "https://github.com/konark-17/RoutePulse.git",
+      "branch": "main",
+      "target_dir": "uploads/RoutePulse",
+      "description": "High-performance Delivery Route Optimization Engine for grocery logistics using TSP (Nearest Neighbor + 2-Opt), OpenStreetMap geocoding, .and FastAPI. Reduces travel distance by ~25%"
+    },
+    "NetSentinel-AI": {
+      "remote_url": "https://github.com/konark-17/NetSentinel-AI.git",
+      "branch": "main",
+      "target_dir": "uploads/NetSentinel-AI",
+      "description": ""
+    },
+    "Panchang-App": {
+      "remote_url": "https://github.com/konark-17/Panchang-App.git",
+      "branch": "main",
+      "target_dir": "uploads/Panchang-App",
+      "description": "Hindu Panchang Calendar with daily Tithi, Paksha & smart reminders. Built with Go + React. PWA \u2014 installable on any device. Free deployment on Render + Vercel."
+    },
+    "AI2Sim": {
+      "remote_url": "https://github.com/konark-17/AI2Sim.git",
+      "branch": "main",
+      "target_dir": "uploads/AI2Sim",
+      "description": ""
+    },
+    "202401096_IT-314_Lab_01": {
+      "remote_url": "https://github.com/konark-17/202401096_IT-314_Lab_01.git",
+      "branch": "main",
+      "target_dir": "uploads/202401096_IT-314_Lab_01",
+      "description": ""
+    },
+    "Map-Related-Contest": {
+      "remote_url": "https://github.com/konark-17/Map-Related-Contest.git",
+      "branch": "main",
+      "target_dir": "uploads/Map-Related-Contest",
+      "description": ""
+    },
+    "ZeroLOB": {
+      "remote_url": "https://github.com/konark-17/ZeroLOB.git",
+      "branch": "main",
+      "target_dir": "uploads/ZeroLOB",
+      "description": "A deterministic, lock-free Limit Order Book (LOB) matching engine engineered in pure Go to achieve sub-microsecond execution ( \u2248 266 ns \u2248266ns) and over  2.4 M\u00a0ops/sec 2.4M\u00a0ops/sec. Built with a zero-allocation contiguous memory arena and cache-line padded SPSC ring buffers to completely eliminate Go runtime garbage collection (GC) jitter."
+    },
+    "tcp-pulse": {
+      "remote_url": "https://github.com/konark-17/tcp-pulse.git",
+      "branch": "main",
+      "target_dir": "uploads/tcp-pulse",
+      "description": "High-performance, kernel-level TCP lifecycle and network latency observability agent built with eBPF (C) and Go (cilium/ebpf). Zero-instrumentation, sub-microsecond overhead with lockless BPF RingBuffers."
+    },
+    "GitStreak": {
+      "remote_url": "https://github.com/konark-17/GitStreak.git",
+      "branch": "main",
+      "target_dir": "uploads/GitStreak",
+      "description": "\u26a1 Automated multi-repo GitHub commit scheduler, streak spreader, and FastAPI dashboard. Paces daily uploads with headless Windows Task Scheduler & isolated workspaces."
+    }
+  }
+}
